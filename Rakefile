@@ -20,7 +20,6 @@ Motion::Project::App.setup do |app|
   app.entitlements['application-identifier'] = "#{app.seed_id}.#{app.identifier}"
   app.entitlements['com.apple.developer.healthkit'] = true
 
-  app.frameworks += ['HealthKit']
 
   app.redgreen_style = :progress
 
